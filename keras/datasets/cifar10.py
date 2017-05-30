@@ -12,7 +12,7 @@ def load_data():
     # Returns
         Tuple of Numpy arrays: `(x_train, y_train), (x_test, y_test)`.
     """
-    dirname = 'cifar-10-batches-py'
+    dirname = 'cifar-10-python'
     origin = 'http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz'
     path = get_file(dirname, origin=origin, untar=True)
 
